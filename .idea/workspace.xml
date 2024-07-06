@@ -4,25 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="add readme note">
-      <change afterPath="$PROJECT_DIR$/chapter_2/adding_comments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/famous_quote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/favorite_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/name_cases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/number_eight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/personal_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_2/stripping_names.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/changing_guess_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/greetings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/guess_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/more_guesses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/names.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/shrinking_guess_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_3/your_own_lists.py" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="learning...">
+      <change afterPath="$PROJECT_DIR$/chapter_3/dinner_guests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/every_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/intentional_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_3/seeing the world.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/track_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/track_logs.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +53,19 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.changing_guess_list.executor": "Run",
+    "Python.dinner_guests.executor": "Run",
+    "Python.every_function.executor": "Run",
     "Python.famous_quote.executor": "Run",
     "Python.favorite_number.executor": "Run",
     "Python.greetings.executor": "Run",
     "Python.guess_list.executor": "Run",
+    "Python.intentional_error.executor": "Run",
     "Python.more_guesses.executor": "Run",
     "Python.name_cases.executor": "Run",
     "Python.names.executor": "Run",
     "Python.number_eight.executor": "Run",
     "Python.personal_message.executor": "Run",
+    "Python.seeing the world.executor": "Run",
     "Python.shrinking_guess_list.executor": "Run",
     "Python.simple_message.executor": "Run",
     "Python.simple_messages.executor": "Run",
@@ -120,7 +111,7 @@
       <workItem from="1720090074840" duration="1564000" />
       <workItem from="1720188389665" duration="645000" />
       <workItem from="1720237919604" duration="2401000" />
-      <workItem from="1720245832908" duration="839000" />
+      <workItem from="1720245832908" duration="1865000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -146,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720090053375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="learning...">
+      <option name="closed" value="true" />
+      <created>1720246762655</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720246762656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +167,8 @@
     <MESSAGE value="adding sources" />
     <MESSAGE value="update track_logs" />
     <MESSAGE value="add readme note" />
-    <option name="LAST_COMMIT_MESSAGE" value="add readme note" />
+    <MESSAGE value="learning..." />
+    <option name="LAST_COMMIT_MESSAGE" value="learning..." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$changing_guess_list.coverage" NAME="changing_guess_list Coverage Results" MODIFIED="1720240292903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
@@ -178,13 +178,17 @@
     <SUITE FILE_PATH="coverage/code_exercises$personal_message.coverage" NAME="personal_message Coverage Results" MODIFIED="1720090545335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/code_exercises$simple_messages.coverage" NAME="simple_messages Coverage Results" MODIFIED="1719855528800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/code_exercises$your_own_lists.coverage" NAME="your_own_lists Coverage Results" MODIFIED="1720239334124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
+    <SUITE FILE_PATH="coverage/code_exercises$intentional_error.coverage" NAME="intentional_error Coverage Results" MODIFIED="1720247688735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$number_eight.coverage" NAME="number_eight Coverage Results" MODIFIED="1720238452421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/code_exercises$favorite_number.coverage" NAME="favorite_number Coverage Results" MODIFIED="1720238500819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/code_exercises$stripping_names.coverage" NAME="stripping_names Coverage Results" MODIFIED="1720238025143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/code_exercises$names.coverage" NAME="names Coverage Results" MODIFIED="1720239021129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
     <SUITE FILE_PATH="coverage/code_exercises$guess_list.coverage" NAME="guess_list Coverage Results" MODIFIED="1720240094010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$more_guesses.coverage" NAME="more_guesses Coverage Results" MODIFIED="1720246010280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/code_exercises$every_function.coverage" NAME="every_function Coverage Results" MODIFIED="1720247466970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$shrinking_guess_list.coverage" NAME="shrinking_guess_list Coverage Results" MODIFIED="1720246164629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$name_cases.coverage" NAME="name_cases Coverage Results" MODIFIED="1720090612153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
+    <SUITE FILE_PATH="coverage/code_exercises$seeing_the_world.coverage" NAME="seeing the world Coverage Results" MODIFIED="1720247135385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/code_exercises$dinner_guests.coverage" NAME="dinner_guests Coverage Results" MODIFIED="1720247216996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
   </component>
 </project>
