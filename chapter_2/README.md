@@ -62,3 +62,4 @@
    ```
 
 > int / int = float
+> int ** int = int
