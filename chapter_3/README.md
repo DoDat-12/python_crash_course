@@ -1,4 +1,4 @@
-# Chapter 02 Code Note
+# Chapter 03 Code Note
 ## Functions
 ### List
 1. append()

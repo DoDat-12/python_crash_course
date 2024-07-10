@@ -1,4 +1,4 @@
-# Chapter 02 Code Note
+# Chapter 04 Code Note
 ## List
 ### Functions
 1. range()

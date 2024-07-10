@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="working chap 04">
-      <change afterPath="$PROJECT_DIR$/chapter_4/buffet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/cube_comprehension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/cubes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/more_loops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/my_pizzas_your_pizzas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_4/slices.py" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="ending chapter 04">
+      <change afterPath="$PROJECT_DIR$/chapter_5/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_3/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter_4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_4/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +52,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.animals.executor": "Run",
+    "Python.buffet.executor": "Run",
     "Python.changing_guess_list.executor": "Run",
     "Python.counting_to_twenty.executor": "Run",
     "Python.cube_comprehension.executor": "Run",
@@ -129,7 +126,7 @@
       <workItem from="1720245832908" duration="2513000" />
       <workItem from="1720277075407" duration="4741000" />
       <workItem from="1720488240994" duration="3146000" />
-      <workItem from="1720617372668" duration="546000" />
+      <workItem from="1720617372668" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -179,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720285998161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ending chapter 04">
+      <option name="closed" value="true" />
+      <created>1720617950740</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720617950740</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +209,8 @@
     <MESSAGE value="learning..." />
     <MESSAGE value="finishing chapter 3" />
     <MESSAGE value="working chap 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="working chap 04" />
+    <MESSAGE value="ending chapter 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="ending chapter 04" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$changing_guess_list.coverage" NAME="changing_guess_list Coverage Results" MODIFIED="1720240292903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
@@ -233,6 +239,7 @@
     <SUITE FILE_PATH="coverage/code_exercises$intentional_error.coverage" NAME="intentional_error Coverage Results" MODIFIED="1720247688735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$pizzas.coverage" NAME="pizzas Coverage Results" MODIFIED="1720277386726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$guess_list.coverage" NAME="guess_list Coverage Results" MODIFIED="1720240094010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/code_exercises$buffet.coverage" NAME="buffet Coverage Results" MODIFIED="1720617924712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$every_function.coverage" NAME="every_function Coverage Results" MODIFIED="1720247466970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$one_million.coverage" NAME="one_million Coverage Results" MODIFIED="1720285193556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$shrinking_guess_list.coverage" NAME="shrinking_guess_list Coverage Results" MODIFIED="1720246164629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
