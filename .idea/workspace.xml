@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="starting chapter 05 &amp; fixing README">
-      <change afterPath="$PROJECT_DIR$/chapter_5/alien_colors_1&amp;2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/alien_colors_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/checking_usernames.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/conditional_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/favorite_fruits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/hello_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/no_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/ordinal_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_5/stages_of_life.py" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="ending chapter 05">
+      <change afterPath="$PROJECT_DIR$/chapter_6/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_5/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_5/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,59 +46,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.alien_colors.executor": "Run",
-    "Python.alien_colors_3.executor": "Run",
-    "Python.animals.executor": "Run",
-    "Python.buffet.executor": "Run",
-    "Python.changing_guess_list.executor": "Run",
-    "Python.checking_usernames.executor": "Run",
-    "Python.conditional_tests.executor": "Run",
-    "Python.counting_to_twenty.executor": "Run",
-    "Python.cube_comprehension.executor": "Run",
-    "Python.cubes.executor": "Run",
-    "Python.dinner_guests.executor": "Run",
-    "Python.every_function.executor": "Run",
-    "Python.famous_quote.executor": "Run",
-    "Python.favorite_number.executor": "Run",
-    "Python.greetings.executor": "Run",
-    "Python.guess_list.executor": "Run",
-    "Python.hello_admin.executor": "Run",
-    "Python.intentional_error.executor": "Run",
-    "Python.more_guesses.executor": "Run",
-    "Python.more_loops.executor": "Run",
-    "Python.my_pizzas_your_pizzas.executor": "Run",
-    "Python.name_cases.executor": "Run",
-    "Python.names.executor": "Run",
-    "Python.no_users.executor": "Run",
-    "Python.number_eight.executor": "Run",
-    "Python.odd_numbers.executor": "Run",
-    "Python.one_million.executor": "Run",
-    "Python.ordinal_numbers.executor": "Run",
-    "Python.personal_message.executor": "Run",
-    "Python.pizzas.executor": "Run",
-    "Python.seeing the world.executor": "Run",
-    "Python.shrinking_guess_list.executor": "Run",
-    "Python.simple_message.executor": "Run",
-    "Python.simple_messages.executor": "Run",
-    "Python.slices.executor": "Run",
-    "Python.stripping_names.executor": "Run",
-    "Python.summing_a_million.executor": "Run",
-    "Python.threes.executor": "Run",
-    "Python.your_own_lists.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.alien_colors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.alien_colors_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.animals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buffet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.changing_guess_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checking_usernames.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditional_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.counting_to_twenty.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cube_comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cubes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dinner_guests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.every_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.famous_quote.executor&quot;: &quot;Run&quot;,
+    &quot;Python.favorite_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.greetings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guess_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intentional_error.executor&quot;: &quot;Run&quot;,
+    &quot;Python.more_guesses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.more_loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_pizzas_your_pizzas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.name_cases.executor&quot;: &quot;Run&quot;,
+    &quot;Python.names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.no_users.executor&quot;: &quot;Run&quot;,
+    &quot;Python.number_eight.executor&quot;: &quot;Run&quot;,
+    &quot;Python.odd_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.one_million.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ordinal_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.personal_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pizzas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seeing the world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shrinking_guess_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_messages.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slices.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stripping_names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.summing_a_million.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.your_own_lists.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python_crash_course\code_exercises\chapter_3" />
@@ -140,7 +131,8 @@
       <workItem from="1720245832908" duration="2513000" />
       <workItem from="1720277075407" duration="4741000" />
       <workItem from="1720488240994" duration="3146000" />
-      <workItem from="1720617372668" duration="6766000" />
+      <workItem from="1720617372668" duration="7065000" />
+      <workItem from="1720717939091" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -206,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720618134438</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ending chapter 05">
+      <option name="closed" value="true" />
+      <created>1720624466578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720624466578</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +233,8 @@
     <MESSAGE value="working chap 04" />
     <MESSAGE value="ending chapter 04" />
     <MESSAGE value="starting chapter 05 &amp; fixing README" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting chapter 05 &amp; fixing README" />
+    <MESSAGE value="ending chapter 05" />
+    <option name="LAST_COMMIT_MESSAGE" value="ending chapter 05" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$changing_guess_list.coverage" NAME="changing_guess_list Coverage Results" MODIFIED="1720240292903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
