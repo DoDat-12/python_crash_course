@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="ending chapter 7">
-      <change afterPath="$PROJECT_DIR$/chapter_8/README.md" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="starting chapter 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -53,80 +52,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.alien_colors.executor": "Run",
-    "Python.alien_colors_3.executor": "Run",
-    "Python.animals.executor": "Run",
-    "Python.buffet.executor": "Run",
-    "Python.changing_guess_list.executor": "Run",
-    "Python.checking_usernames.executor": "Run",
-    "Python.cities.executor": "Run",
-    "Python.conditional_tests.executor": "Run",
-    "Python.counting_to_twenty.executor": "Run",
-    "Python.cube_comprehension.executor": "Run",
-    "Python.cubes.executor": "Run",
-    "Python.deli.executor": "Run",
-    "Python.dinner_guests.executor": "Run",
-    "Python.dream_vacation.executor": "Run",
-    "Python.every_function.executor": "Run",
-    "Python.extensions.executor": "Run",
-    "Python.famous_quote.executor": "Run",
-    "Python.favorite_number.executor": "Run",
-    "Python.favorite_numbers.executor": "Run",
-    "Python.favorite_places.executor": "Run",
-    "Python.favortie_numbers.executor": "Run",
-    "Python.glossary.executor": "Run",
-    "Python.glossary_2.executor": "Run",
-    "Python.greetings.executor": "Run",
-    "Python.guess_list.executor": "Run",
-    "Python.hello_admin.executor": "Run",
-    "Python.infinity.executor": "Run",
-    "Python.intentional_error.executor": "Run",
-    "Python.more_guesses.executor": "Run",
-    "Python.more_loops.executor": "Run",
-    "Python.movie_tickets.executor": "Run",
-    "Python.multiples_of_ten.executor": "Run",
-    "Python.my_pizzas_your_pizzas.executor": "Run",
-    "Python.name_cases.executor": "Run",
-    "Python.names.executor": "Run",
-    "Python.no_pastrami.executor": "Run",
-    "Python.no_users.executor": "Run",
-    "Python.number_eight.executor": "Run",
-    "Python.odd_numbers.executor": "Run",
-    "Python.one_million.executor": "Run",
-    "Python.ordinal_numbers.executor": "Run",
-    "Python.people.executor": "Run",
-    "Python.person.executor": "Run",
-    "Python.personal_message.executor": "Run",
-    "Python.pets.executor": "Run",
-    "Python.pizza_toppings.executor": "Run",
-    "Python.pizzas.executor": "Run",
-    "Python.polling.executor": "Run",
-    "Python.rental_car.executor": "Run",
-    "Python.restaurant_seating.executor": "Run",
-    "Python.rivers.executor": "Run",
-    "Python.seeing the world.executor": "Run",
-    "Python.shrinking_guess_list.executor": "Run",
-    "Python.simple_message.executor": "Run",
-    "Python.simple_messages.executor": "Run",
-    "Python.slices.executor": "Run",
-    "Python.stripping_names.executor": "Run",
-    "Python.summing_a_million.executor": "Run",
-    "Python.threes.executor": "Run",
-    "Python.your_own_lists.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.alien_colors.executor&quot;: &quot;Run&quot;,
+    &quot;Python.alien_colors_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.animals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.buffet.executor&quot;: &quot;Run&quot;,
+    &quot;Python.changing_guess_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checking_usernames.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cities.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conditional_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.counting_to_twenty.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cube_comprehension.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cubes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deli.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dinner_guests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dream_vacation.executor&quot;: &quot;Run&quot;,
+    &quot;Python.every_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.extensions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.famous_quote.executor&quot;: &quot;Run&quot;,
+    &quot;Python.favorite_number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.favorite_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.favorite_places.executor&quot;: &quot;Run&quot;,
+    &quot;Python.favortie_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glossary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.glossary_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.greetings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.guess_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello_admin.executor&quot;: &quot;Run&quot;,
+    &quot;Python.infinity.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intentional_error.executor&quot;: &quot;Run&quot;,
+    &quot;Python.more_guesses.executor&quot;: &quot;Run&quot;,
+    &quot;Python.more_loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.movie_tickets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.multiples_of_ten.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_pizzas_your_pizzas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.name_cases.executor&quot;: &quot;Run&quot;,
+    &quot;Python.names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.no_pastrami.executor&quot;: &quot;Run&quot;,
+    &quot;Python.no_users.executor&quot;: &quot;Run&quot;,
+    &quot;Python.number_eight.executor&quot;: &quot;Run&quot;,
+    &quot;Python.odd_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.one_million.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ordinal_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.people.executor&quot;: &quot;Run&quot;,
+    &quot;Python.person.executor&quot;: &quot;Run&quot;,
+    &quot;Python.personal_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pizza_toppings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pizzas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.polling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rental_car.executor&quot;: &quot;Run&quot;,
+    &quot;Python.restaurant_seating.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rivers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seeing the world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shrinking_guess_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_message.executor&quot;: &quot;Run&quot;,
+    &quot;Python.simple_messages.executor&quot;: &quot;Run&quot;,
+    &quot;Python.slices.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stripping_names.executor&quot;: &quot;Run&quot;,
+    &quot;Python.summing_a_million.executor&quot;: &quot;Run&quot;,
+    &quot;Python.threes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.your_own_lists.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python_crash_course\code_exercises\chapter_3" />
@@ -164,7 +163,8 @@
       <workItem from="1720875244741" duration="3916000" />
       <workItem from="1720880285372" duration="599000" />
       <workItem from="1720939496454" duration="5643000" />
-      <workItem from="1720964292441" duration="2804000" />
+      <workItem from="1720964292441" duration="3003000" />
+      <workItem from="1720967414388" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720966741215</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="starting chapter 8">
+      <option name="closed" value="true" />
+      <created>1720967311593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720967311593</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +310,8 @@
     <MESSAGE value="learning chapter 6" />
     <MESSAGE value="ending chapter 6" />
     <MESSAGE value="ending chapter 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="ending chapter 7" />
+    <MESSAGE value="starting chapter 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting chapter 8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$greetings.coverage" NAME="greetings Coverage Results" MODIFIED="1720239158279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
