@@ -42,6 +42,23 @@
    del alien_0['points']
    ```
    
+4. A list of dictionaries
+   ```
+   alien_0 = {'color': 'green', 'points': 5}
+   alien_1 = {'color': 'yellow', 'points': 10}
+   alien_2 = {'color': 'red', 'points': 15}
+   
+   aliens = [alien_0, alien_1, alien_2]
+   ```
+   
+5. A list in a dictionary
+   ```
+   pizza = {
+      'crust': 'thick',
+      'toppings': ['mushrooms', 'extra cheese']
+   }
+   ```
+   
 ## Set - A collection in which each item must be unique
 ### Syntax
 1. set of values
