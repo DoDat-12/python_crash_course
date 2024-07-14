@@ -19,6 +19,12 @@
    max(digits)  # 9
    sum(digits)  # 45
    ```
+   
+4. remove(string)
+   ```
+   pets = ['dog', 'cat', 'dog', 'goldfish', 'cat', 'rabbit', 'cat']
+   pets.remove('cat')  # remove first 'cat' found in pets
+   ```
 
 ### Syntax
 1. List comprehensions
