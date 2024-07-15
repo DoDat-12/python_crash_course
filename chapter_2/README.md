@@ -6,11 +6,13 @@
     name = "ada lovelace"
     print(name.title())
     ```
+
 2. upper()
     ```
     name = "Ada Lovelace"
     print(name.upper())
     ```
+
 3. lower()
     ```
     name = "Ada Lovelace"
