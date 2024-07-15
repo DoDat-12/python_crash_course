@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="fix README.md">
-      <change afterPath="$PROJECT_DIR$/chapter_8/album.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/archived_messages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/cars.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/cities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/city_names.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/favorite_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/imports.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/large_shirts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/messages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/printing_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/printing_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/sandwiches.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/sending_messages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/t_shirt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/user_album.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_8/user_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter_8/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_8/README.md" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="ending chapter 5">
+      <change beforePath="$PROJECT_DIR$/track_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/track_logs.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +183,7 @@
       <workItem from="1720939496454" duration="5643000" />
       <workItem from="1720964292441" duration="3003000" />
       <workItem from="1720967414388" duration="74000" />
-      <workItem from="1721011250469" duration="8070000" />
+      <workItem from="1721011250469" duration="8337000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -323,7 +305,47 @@
       <option name="project" value="LOCAL" />
       <updated>1720967481344</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ending chapter 8">
+      <option name="closed" value="true" />
+      <created>1721031410010</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031410010</updated>
+    </task>
+    <task id="LOCAL-00017" summary="ending chapter 2">
+      <option name="closed" value="true" />
+      <created>1721031440504</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031440504</updated>
+    </task>
+    <task id="LOCAL-00018" summary="ending chapter 3">
+      <option name="closed" value="true" />
+      <created>1721031526089</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031526089</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ending chapter 4">
+      <option name="closed" value="true" />
+      <created>1721031567770</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031567770</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ending chapter 5">
+      <option name="closed" value="true" />
+      <created>1721031594404</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031594404</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +379,12 @@
     <MESSAGE value="ending chapter 7" />
     <MESSAGE value="starting chapter 8" />
     <MESSAGE value="fix README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix README.md" />
+    <MESSAGE value="ending chapter 8" />
+    <MESSAGE value="ending chapter 2" />
+    <MESSAGE value="ending chapter 3" />
+    <MESSAGE value="ending chapter 4" />
+    <MESSAGE value="ending chapter 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ending chapter 5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$greetings.coverage" NAME="greetings Coverage Results" MODIFIED="1720239158279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
