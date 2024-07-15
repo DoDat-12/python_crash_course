@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="update log">
-      <change afterPath="$PROJECT_DIR$/chapter_9/README.md" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="starting chapter 9">
+      <change afterPath="$PROJECT_DIR$/chapter_9/number_served.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_9/restaurant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_9/three_restaurants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_9/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_9/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_9/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +55,8 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -101,6 +107,7 @@
     "Python.no_pastrami.executor": "Run",
     "Python.no_users.executor": "Run",
     "Python.number_eight.executor": "Run",
+    "Python.number_served.executor": "Run",
     "Python.odd_numbers.executor": "Run",
     "Python.one_million.executor": "Run",
     "Python.ordinal_numbers.executor": "Run",
@@ -113,6 +120,7 @@
     "Python.polling.executor": "Run",
     "Python.printing_models.executor": "Run",
     "Python.rental_car.executor": "Run",
+    "Python.restaurant.executor": "Run",
     "Python.restaurant_seating.executor": "Run",
     "Python.rivers.executor": "Run",
     "Python.sandwiches.executor": "Run",
@@ -125,9 +133,11 @@
     "Python.stripping_names.executor": "Run",
     "Python.summing_a_million.executor": "Run",
     "Python.t_shirt.executor": "Run",
+    "Python.three_restaurants.executor": "Run",
     "Python.threes.executor": "Run",
     "Python.user_album.executor": "Run",
     "Python.user_profile.executor": "Run",
+    "Python.users.executor": "Run",
     "Python.your_own_lists.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -136,7 +146,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -184,7 +194,9 @@
       <workItem from="1720939496454" duration="5643000" />
       <workItem from="1720964292441" duration="3003000" />
       <workItem from="1720967414388" duration="74000" />
-      <workItem from="1721011250469" duration="8499000" />
+      <workItem from="1721011250469" duration="8661000" />
+      <workItem from="1721031975180" duration="53000" />
+      <workItem from="1721050299223" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -354,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721031649926</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="starting chapter 9">
+      <option name="closed" value="true" />
+      <created>1721031823012</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1721031823012</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,10 +414,12 @@
     <MESSAGE value="ending chapter 4" />
     <MESSAGE value="ending chapter 5" />
     <MESSAGE value="update log" />
-    <option name="LAST_COMMIT_MESSAGE" value="update log" />
+    <MESSAGE value="starting chapter 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting chapter 9" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$greetings.coverage" NAME="greetings Coverage Results" MODIFIED="1720239158279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
+    <SUITE FILE_PATH="coverage/code_exercises$number_served.coverage" NAME="number_served Coverage Results" MODIFIED="1721053243661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
     <SUITE FILE_PATH="coverage/code_exercises$favortie_numbers.coverage" NAME="favortie_numbers Coverage Results" MODIFIED="1720941357659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$person.coverage" NAME="person Coverage Results" MODIFIED="1720875500903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$cars.coverage" NAME="cars Coverage Results" MODIFIED="1721030118368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
@@ -426,6 +448,7 @@
     <SUITE FILE_PATH="coverage/code_exercises$people.coverage" NAME="people Coverage Results" MODIFIED="1720940742903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$no_pastrami.coverage" NAME="no_pastrami Coverage Results" MODIFIED="1720966292799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/code_exercises$sending_messages.coverage" NAME="sending_messages Coverage Results" MODIFIED="1721027463518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
+    <SUITE FILE_PATH="coverage/code_exercises$three_restaurants.coverage" NAME="three_restaurants Coverage Results" MODIFIED="1721051968871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
     <SUITE FILE_PATH="coverage/code_exercises$intentional_error.coverage" NAME="intentional_error Coverage Results" MODIFIED="1720247688735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$dream_vacation.coverage" NAME="dream_vacation Coverage Results" MODIFIED="1720966657525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/code_exercises$favorite_book.coverage" NAME="favorite_book Coverage Results" MODIFIED="1721011451780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
@@ -455,6 +478,7 @@
     <SUITE FILE_PATH="coverage/code_exercises$cubes.coverage" NAME="cubes Coverage Results" MODIFIED="1720488431544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$hello_admin.coverage" NAME="hello_admin Coverage Results" MODIFIED="1720622643929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5" />
     <SUITE FILE_PATH="coverage/code_exercises$dinner_guests.coverage" NAME="dinner_guests Coverage Results" MODIFIED="1720247216996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/code_exercises$restaurant.coverage" NAME="restaurant Coverage Results" MODIFIED="1721051747635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
     <SUITE FILE_PATH="coverage/code_exercises$cities.coverage" NAME="cities Coverage Results" MODIFIED="1721012290772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
     <SUITE FILE_PATH="coverage/code_exercises$animals.coverage" NAME="animals Coverage Results" MODIFIED="1720277522331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$simple_messages.coverage" NAME="simple_messages Coverage Results" MODIFIED="1719855528800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
@@ -470,6 +494,7 @@
     <SUITE FILE_PATH="coverage/code_exercises$shrinking_guess_list.coverage" NAME="shrinking_guess_list Coverage Results" MODIFIED="1720246164629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$favorite_places.coverage" NAME="favorite_places Coverage Results" MODIFIED="1720941223343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$user_profile.coverage" NAME="user_profile Coverage Results" MODIFIED="1721029972941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
+    <SUITE FILE_PATH="coverage/code_exercises$users.coverage" NAME="users Coverage Results" MODIFIED="1721052285049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
     <SUITE FILE_PATH="coverage/code_exercises$name_cases.coverage" NAME="name_cases Coverage Results" MODIFIED="1720090612153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
   </component>
 </project>
