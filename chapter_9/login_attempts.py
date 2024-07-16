@@ -4,6 +4,7 @@ class User:
         self.first_name = first_name
         self.last_name = last_name
         self.info = info
+        self.login_attempts = 0
 
     def describe_user(self):
         print(f'\nName: {self.first_name} {self.last_name}')
@@ -13,7 +14,15 @@ class User:
     def greet_user(self):
         print(f'\nHello {self.first_name} {self.last_name}')
 
+    def increment_login_attempts(self):
+        self.login_attempts += 1
 
-# me = User('Do', 'Dat', age=20, gender='Male')
-# me.describe_user()
-# me.greet_user()
+    def reset_login_attempts(self):
+        self.login_attempts = 0
+
+
+dodat_12 = User('do', 'dat')
+dodat_12.increment_login_attempts()
+print(f'Number of login attempts: {dodat_12.login_attempts}')
+dodat_12.reset_login_attempts()
+print(f'Number of login attempts: {dodat_12.login_attempts}')
