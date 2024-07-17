@@ -18,5 +18,5 @@ class Admin(User):
         self.privileges = Privileges()
 
 
-admin = Admin('do', 'dat')
-admin.privileges.show_privileges()
+# admin = Admin('do', 'dat')
+# admin.privileges.show_privileges()

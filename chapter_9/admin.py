@@ -12,6 +12,6 @@ class Admin(User):
             print(f'- {privilege}')
 
 
-admin = Admin('do', 'dat', age=21, height=175, weight=71)
-admin.show_privileges()
-admin.describe_user()
+# admin = Admin('do', 'dat', age=21, height=175, weight=71)
+# admin.show_privileges()
+# admin.describe_user()

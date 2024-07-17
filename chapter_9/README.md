@@ -51,5 +51,22 @@
 
 4. Import Classes
    ```
-   from car import Car  # from car.py import class Car()
+   from car import Car  # from module car (car.py) import class Car()
+   my_new_car = Car('audi', 'a4', 2019)
+   
+   import car  # import entire module
+   my_bettle = car.Car('volkswagen', 'beetle', 2019)
+   
+   # Using Aliaes
+   from electric_car import ElectricCar as EC
+   ```
+   
+5. The Python Standard Library
+   ```
+   from random import randint
+   print(randint(1, 6))  # random from 1 to 6
+   
+   from random import choice
+   players = ['charles', 'martina', 'michael', 'florence', 'eli']
+   first_up = choice(players)  # random in list, tuple...
    ```
