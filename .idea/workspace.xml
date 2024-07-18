@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="ending chapter 10">
-      <change beforePath="$PROJECT_DIR$/track_logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/track_logs.log" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="update log">
+      <change afterPath="$PROJECT_DIR$/chapter_11/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +220,7 @@
       <workItem from="1721136722818" duration="4777000" />
       <workItem from="1721198563665" duration="5794000" />
       <workItem from="1721223236038" duration="6416000" />
-      <workItem from="1721288741907" duration="4763000" />
+      <workItem from="1721288741907" duration="4835000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -444,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721318032102</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update log">
+      <option name="closed" value="true" />
+      <created>1721318078425</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1721318078425</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,10 +495,10 @@
     <MESSAGE value="starting chapter 9" />
     <MESSAGE value="working on chapter 9..." />
     <MESSAGE value="learning chapter 9" />
-    <MESSAGE value="update log" />
     <MESSAGE value="ending chapter 9" />
     <MESSAGE value="ending chapter 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="ending chapter 10" />
+    <MESSAGE value="update log" />
+    <option name="LAST_COMMIT_MESSAGE" value="update log" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$greetings.coverage" NAME="greetings Coverage Results" MODIFIED="1720239158279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
