@@ -27,3 +27,9 @@
 11 - Testing your code
 
 ### Part II - Projects
+
+#### Project 2 - Data Visualization
+
+1 - Generating Data
+
+2 - Downloading Data
