@@ -66,6 +66,9 @@
    plt.savefig('quares_plot.png', bbox_inches='tight')
    ```
    
+   More of Plotly
+   https://plotly.com/python/creating-and-updating-figures/
+
 2. Remove the axes
    ```
    ax.get_xaxis().set_visible(False)
