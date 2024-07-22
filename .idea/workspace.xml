@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="ending chapter 16">
-      <change beforePath="$PROJECT_DIR$/project_2/chapter_16/eq_explore_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_2/chapter_16/eq_explore_data.py" afterDir="false" />
+    <list default="true" id="74456722-ee41-4028-8d4b-1e2d32e79e53" name="Changes" comment="fix number">
+      <change afterPath="$PROJECT_DIR$/project_2/chapter_17/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_2/chapter_17/python_repos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_2/chapter_17/python_repos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project_2/chapter_17/python_repos_visual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +145,8 @@
     "Python.privileges.executor": "Run",
     "Python.programming_poll.executor": "Run",
     "Python.python_module_of_the_week.executor": "Run",
+    "Python.python_repos.executor": "Run",
+    "Python.python_repos_visual.executor": "Run",
     "Python.rental_car.executor": "Run",
     "Python.restaurant.executor": "Run",
     "Python.restaurant_seating.executor": "Run",
@@ -241,7 +247,8 @@
       <workItem from="1721481122438" duration="4366000" />
       <workItem from="1721530067403" duration="2509000" />
       <workItem from="1721544957601" duration="2431000" />
-      <workItem from="1721573783412" duration="3073000" />
+      <workItem from="1721573783412" duration="3330000" />
+      <workItem from="1721611621235" duration="3912000" />
     </task>
     <task id="LOCAL-00001" summary="adding sources">
       <option name="closed" value="true" />
@@ -539,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721576934545</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fix number">
+      <option name="closed" value="true" />
+      <created>1721577274660</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1721577274660</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="starting chapter 05 &amp; fixing README" />
     <MESSAGE value="ending chapter 05" />
     <MESSAGE value="starting chapter 6" />
     <MESSAGE value="learning chapter 6" />
@@ -583,26 +597,27 @@
     <MESSAGE value="starting chapter 16" />
     <MESSAGE value="update log" />
     <MESSAGE value="ending chapter 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="ending chapter 16" />
+    <MESSAGE value="fix number" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix number" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/code_exercises$personal_message.coverage" NAME="personal_message Coverage Results" MODIFIED="1720090545335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
-    <SUITE FILE_PATH="coverage/code_exercises$pets.coverage" NAME="pets Coverage Results" MODIFIED="1720940967509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$restaurant_seating.coverage" NAME="restaurant_seating Coverage Results" MODIFIED="1720945013095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
+    <SUITE FILE_PATH="coverage/code_exercises$pets.coverage" NAME="pets Coverage Results" MODIFIED="1720940967509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/python_crash_course$sitka_death_valley_comparison.coverage" NAME="sitka_death_valley_comparison Coverage Results" MODIFIED="1721531408390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_2/chapter_16" />
-    <SUITE FILE_PATH="coverage/code_exercises$every_function.coverage" NAME="every_function Coverage Results" MODIFIED="1720247466970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$stripping_names.coverage" NAME="stripping_names Coverage Results" MODIFIED="1720238025143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
+    <SUITE FILE_PATH="coverage/code_exercises$every_function.coverage" NAME="every_function Coverage Results" MODIFIED="1720247466970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$rivers.coverage" NAME="rivers Coverage Results" MODIFIED="1720879444950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$user_profile.coverage" NAME="user_profile Coverage Results" MODIFIED="1721029972941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
     <SUITE FILE_PATH="coverage/code_exercises$extensions.coverage" NAME="extensions Coverage Results" MODIFIED="1720941779169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_6" />
     <SUITE FILE_PATH="coverage/code_exercises$message.coverage" NAME="message Coverage Results" MODIFIED="1721011390383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
     <SUITE FILE_PATH="coverage/python_crash_course$colored_cubes.coverage" NAME="colored_cubes Coverage Results" MODIFIED="1721458832549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_2/chapter_15" />
-    <SUITE FILE_PATH="coverage/code_exercises$alien_colors.coverage" NAME="alien_colors Coverage Results" MODIFIED="1720621217141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5" />
     <SUITE FILE_PATH="coverage/code_exercises$seeing_the_world.coverage" NAME="seeing the world Coverage Results" MODIFIED="1720247135385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/code_exercises$alien_colors.coverage" NAME="alien_colors Coverage Results" MODIFIED="1720621217141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5" />
     <SUITE FILE_PATH="coverage/code_exercises$buffet.coverage" NAME="buffet Coverage Results" MODIFIED="1720617924712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
-    <SUITE FILE_PATH="coverage/code_exercises$imported_admin.coverage" NAME="imported_admin Coverage Results" MODIFIED="1721199316925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
-    <SUITE FILE_PATH="coverage/code_exercises$hello_admin.coverage" NAME="hello_admin Coverage Results" MODIFIED="1720622643929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5" />
     <SUITE FILE_PATH="coverage/code_exercises$lottery_analysis.coverage" NAME="lottery_analysis Coverage Results" MODIFIED="1721202233497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
+    <SUITE FILE_PATH="coverage/code_exercises$hello_admin.coverage" NAME="hello_admin Coverage Results" MODIFIED="1720622643929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5" />
+    <SUITE FILE_PATH="coverage/code_exercises$imported_admin.coverage" NAME="imported_admin Coverage Results" MODIFIED="1721199316925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
     <SUITE FILE_PATH="coverage/code_exercises$multiples_of_ten.coverage" NAME="multiples_of_ten Coverage Results" MODIFIED="1720945066998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/code_exercises$more_guesses.coverage" NAME="more_guesses Coverage Results" MODIFIED="1720246010280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
     <SUITE FILE_PATH="coverage/code_exercises$name_cases.coverage" NAME="name_cases Coverage Results" MODIFIED="1720090612153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
@@ -611,8 +626,8 @@
     <SUITE FILE_PATH="coverage/code_exercises$slices.coverage" NAME="slices Coverage Results" MODIFIED="1720490622166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$album.coverage" NAME="album Coverage Results" MODIFIED="1721025488935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
     <SUITE FILE_PATH="coverage/code_exercises$.coverage" NAME=" Coverage Results" MODIFIED="1721359769495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_11" />
-    <SUITE FILE_PATH="coverage/code_exercises$no_pastrami.coverage" NAME="no_pastrami Coverage Results" MODIFIED="1720966292799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/code_exercises$shrinking_guess_list.coverage" NAME="shrinking_guess_list Coverage Results" MODIFIED="1720246164629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/code_exercises$no_pastrami.coverage" NAME="no_pastrami Coverage Results" MODIFIED="1720966292799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/code_exercises$rental_car.coverage" NAME="rental_car Coverage Results" MODIFIED="1720965160572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/python_crash_course$three_dice.coverage" NAME="three_dice Coverage Results" MODIFIED="1721472088932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_2/chapter_15" />
     <SUITE FILE_PATH="coverage/code_exercises$pizzas.coverage" NAME="pizzas Coverage Results" MODIFIED="1720277386726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
@@ -630,6 +645,7 @@
     <SUITE FILE_PATH="coverage/code_exercises$sandwiches.coverage" NAME="sandwiches Coverage Results" MODIFIED="1721028806869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
     <SUITE FILE_PATH="coverage/code_exercises$restaurant.coverage" NAME="restaurant Coverage Results" MODIFIED="1721051747635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_9" />
     <SUITE FILE_PATH="coverage/code_exercises$messages.coverage" NAME="messages Coverage Results" MODIFIED="1721027151528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
+    <SUITE FILE_PATH="coverage/python_crash_course$python_repos.coverage" NAME="python_repos Coverage Results" MODIFIED="1721614311580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_2/chapter_17" />
     <SUITE FILE_PATH="coverage/code_exercises$city_names.coverage" NAME="city_names Coverage Results" MODIFIED="1721025240941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_8" />
     <SUITE FILE_PATH="coverage/code_exercises$addition_calculator.coverage" NAME="addition_calculator Coverage Results" MODIFIED="1721288966950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10" />
     <SUITE FILE_PATH="coverage/code_exercises$common_words.coverage" NAME="common_words Coverage Results" MODIFIED="1721290312863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10" />
@@ -650,6 +666,7 @@
     <SUITE FILE_PATH="coverage/code_exercises$animals.coverage" NAME="animals Coverage Results" MODIFIED="1720277522331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/python_crash_course$molecular_motion.coverage" NAME="molecular_motion Coverage Results" MODIFIED="1721468902176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_2/chapter_15" />
     <SUITE FILE_PATH="coverage/code_exercises$learning_c.coverage" NAME="learning_c Coverage Results" MODIFIED="1721224930184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_10" />
+    <SUITE FILE_PATH="coverage/python_crash_course$python_repos_visual.coverage" NAME="python_repos_visual Coverage Results" MODIFIED="1721615888593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project_2/chapter_17" />
     <SUITE FILE_PATH="coverage/code_exercises$dream_vacation.coverage" NAME="dream_vacation Coverage Results" MODIFIED="1720966657525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_7" />
     <SUITE FILE_PATH="coverage/code_exercises$cube_comprehension.coverage" NAME="cube_comprehension Coverage Results" MODIFIED="1720488679609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/code_exercises$simple_messages.coverage" NAME="simple_messages Coverage Results" MODIFIED="1719855528800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
